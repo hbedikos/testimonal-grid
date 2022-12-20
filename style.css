@@ -29,10 +29,12 @@ body {
 .container {
     display: grid;
     row-gap: 2em;
+    transform: scale(0.85);
+    max-width: 90%;
+   
 }
 
 .testimony {
-    background-color: rgb(213, 210, 210);
     border-radius: 10px;
     position: relative;
     padding: 2em;
@@ -40,7 +42,9 @@ body {
     flex-direction: column;
     gap: 1.5em;
     z-index: -2;
-
+  
+    
+    
 }
 
 .quote-image {
@@ -127,6 +131,7 @@ body {
 
 .jonathan-walters {
     background-color: var(--grayish-blue);
+    
 }
 
 .kira-whittle,
@@ -143,12 +148,20 @@ body {
     
 
     .container {
-       
+     
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        gap: 4em;
+       
+        gap: 3em;
         /* border: 2px solid red; */
-        padding: 5em;
+       padding: 3em;
+        
+    }
+
+ 
+
+    .quote-image {
+        right: 8em;
     }
 
     .daniel-clofford {
